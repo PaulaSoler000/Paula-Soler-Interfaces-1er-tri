@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/style.css">
     <!-- Completa tu nombre -->
-    <title>NOMBRE_DEL_ALUMNO</title>
+    <title>Paula Soler Pino</title>
 
     <style src="static/style.css"></style>
 </head>
@@ -14,7 +17,180 @@
 
     <!-- Completar html aqui -->
 
-    <script src="static/app.js"></script>
+<div id="contenedorContacto">
+    <div class="home-content">        
+        <div id="wrapper">
+
+            <div id="gris">
+            <h1>Aplicación de dietas</h1>
+            </div>
+
+            <table id="data_table">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Sexo</th>
+                    <th>Edad</th>
+                    <th>Altura</th>
+                    <th>Peso</th>
+                    <th>Actividad</th>
+                    <th>IM Basal</th>
+                    <th>Calorías necesarias</th>
+                    
+                </tr>
+    
+                <tr id="row2">
+                    <td id="date_row2">Jose Carlos Lara</td>
+                    <td id="hombre">Hombre</td>
+                    <td id="hour_row2">46</td>
+                    <td id="act_row2">187</td>
+                    <td>89</td>
+                    <td id="actividad">moderada</td>
+                    <td id="obser_row2">1333kCal</td>
+                    <td>1712kCal</td>
+                </tr>
+                <tr id="row2">
+                    <td id="date_row2">Jose Carlos Lara</td>
+                    <td id="hombre">Hombre</td>
+                    <td id="hour_row2">46</td>
+                    <td id="act_row2">187</td>
+                    <td>89</td>
+                    <td id="actividad">alta</td>
+                    <td id="obser_row2">1333kCal</td>
+                    <td>1712kCal</td>
+                </tr>
+                <tr id="row2">
+                    <td id="date_row2">Jose Carlos Lara</td>
+                    <td id="mujer">Mujer</td>
+                    <td id="hour_row2">46</td>
+                    <td id="act_row2">187</td>
+                    <td>89</td>
+                    <td id="actividad">moderada</td>
+                    <td id="obser_row2">1333kCal</td>
+                    <td>1712kCal</td>
+                
+                </tr>
+                <tr id="row2">
+                    <td id="date_row2">Jose Carlos Lara</td>
+                    <td id="hombre">Hombre</td>
+                    <td id="hour_row2">46</td>
+                    <td id="act_row2">187</td>
+                    <td>89</td>
+                    <td id="actividad">moderada</td>
+                    <td id="obser_row2">1333kCal</td>
+                    <td>1712kCal</td>
+                </tr>
+                <tr id="row2">
+                    <td id="date_row2">Jose Carlos Lara</td>
+                    <td id="mujer">Mujer</td>
+                    <td id="hour_row2">46</td>
+                    <td id="act_row2">187</td>
+                    <td>89</td>
+                    <td id="actividad">moderada</td>
+                    <td id="obser_row2">1333kCal</td>
+                    <td>1712kCal</td>
+                </tr>
+            
+           
+            </table>
+    
+        </div>
+        <div class="formulario__grupo formulario__grupo-btn-enviar">
+        <input type="button" class="add" id="myBtn" value="Añadir cliente" ></a>
+    </div>
+        <div id="gris">
+            <p>Francisco</p>
+        </div>
+    </div>
+
+    <div class="formulario__mensaje" id="formulario__mensaje">
+        <div class="home-content">
+
+            
+            <form action="" method="POST" id="formu" class="formu">
+                <div id="gris">
+                <h1>Nuevo cliente</h1>
+                </div>
+                
+                    <label for="fname">Nombre:</label>
+                    <input type="text" id="fname" name="fname"><br>
+                   
+                    <label for="Sexo">Sexo:</label>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                      <label for="html">Hombre</label>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                      <label for="html">Mujer</label><br>
+              
+
+                          <label for="lname">Edad:</label>
+                          <input type="text" id="lname" name="lname" ><br><br>
+                          
+                          <label for="lname">Altura(cm):</label>
+                          <input type="text" id="lname" name="lname" ><br><br>
+               
+                          <label for="lname">Peso(kg):</label>
+                          <input type="text" id="lname" name="lname" ><br><br>
+                    
+                          <label for="Sexo">Actividad física</label>
+                          <select id="cars">
+                              <option value="suave">Suave o sedentar</option>
+                              <option value="alta">Alta</option>
+                              <option value="alta">Media</option>
+                            </select><br>
+                
+                            <button id="myBtn">Open Modal</button>
+
+                            <!-- The Modal -->
+                            <div id="myModal" class="modal">
+                            
+                              <!-- Modal content -->
+                              <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <form action="" method="POST" id="formu" class="formu">
+                                    
+                                    
+                                        <label for="fname">Nombre:</label>
+                                        <input type="text" id="fname" name="fname"><br>
+                                       
+                                        <label for="Sexo">Sexo:</label>
+                                        <input type="radio" id="html" name="fav_language" value="HTML">
+                                          <label for="html">Hombre</label>
+                                        <input type="radio" id="html" name="fav_language" value="HTML">
+                                          <label for="html">Mujer</label><br>
+                                  
+                    
+                                              <label for="lname">Edad:</label>
+                                              <input type="text" id="lname" name="lname" ><br><br>
+                                              
+                                              <label for="lname">Altura(cm):</label>
+                                              <input type="text" id="lname" name="lname" ><br><br>
+                                   
+                                              <label for="lname">Peso(kg):</label>
+                                              <input type="text" id="lname" name="lname" ><br><br>
+                                        
+                                              <label for="Sexo">Actividad física</label>
+                                              <select id="cars">
+                                                  <option value="suave">Suave o sedentar</option>
+                                                  <option value="alta">Alta</option>
+                                                  <option value="alta">Media</option>
+                                                </select><br>
+                              </div>
+                            
+                            </div>
+             
+        
+                <div id="gris">
+                <input type="button" class="add" value="Añadir nuevo" ></a>
+                <input type="button" class="add" value="volver atrás" ></a>
+                </div>
+        
+              </form>
+
+        </div>
+    </div>
+    
+</div>
+
+<script src="static/app.js"></script>
 
 </body>
 </html>

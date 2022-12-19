@@ -1,1 +1,161 @@
 /*# sourceMappingURL=style.css.map */
+h1{
+    font-family: 'Fredoka One', cursive;
+}
+
+
+#gris{
+    background-color: lightgray;  
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+#contenedorContacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    min-width: 100vw;
+    min-height: 100vh;
+  
+    background: rgb(78,71,59);
+    background: linear-gradient(90deg, rgba(78,71,59,1) 0%, rgba(168,125,44,1) 35%, rgba(229,255,255,1) 100%);
+  }
+
+.home-content {
+   
+    width: 100%;
+    max-width: 1000px;
+    min-width: 355px;
+    margin-right: 10rem;
+    padding: 30px 30px 60px 30px;
+    background-color: white;
+   
+    
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    
+    box-sizing: border-box;
+    
+    opacity: 1;
+    filter: alpha(opacity=1);
+  }
+
+
+#data_table, td {
+    margin: auto;
+    border-collapse: collapse !important;
+    border-style: hidden; 
+    border: 1px solid orange;
+    font-size:16px;
+    
+    text-align: center;
+  }
+
+  #data_table, td {
+
+  }
+
+  #data_table th, td{
+    border: 1px solid orange;
+    color: black;
+  }
+  
+  #data_table td, th {
+    padding: 10px;
+  }
+  
+  #data_table th {
+    background-color: orange;
+    font-family: 'Fredoka One', cursive;
+  
+  }
+  
+  .add {
+  font-family: 'Nunito', sans-serif;
+ 
+  color:white;
+  width: 20%;
+  height: 40px;
+  border: none;
+
+  
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  
+  background-color:green;
+  
+  margin-top: 20px;
+  }
+
+  #hombre {
+background-color:blue;
+color:white;
+width: 5%;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+  }
+
+  #mujer{
+    background-color:pink;
+    color:white;
+    width: 5%;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+  }
+  #actividad{
+    background-color:grey;
+    color:white;
+    width: 5%;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+  }
+
+input{
+    justify:center;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
